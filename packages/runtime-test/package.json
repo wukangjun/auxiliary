@@ -1,0 +1,26 @@
+{
+  "name": "@auxiliary/runtime-test",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "keywords": [
+    "webpack",
+    "memory-fs"
+  ],
+  "author": "wukangjun <838927844@qq.com>",
+  "homepage": "https://github.com/wukangjun/auxiliary/tree/master/packages/runtime-test#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "http://172.18.13.173:4873/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "memory-fs": "^0.5.0",
+    "webpack": "^4.44.1"
+  }
+}

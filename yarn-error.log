@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js add loader-utils schema-utils --save
+
+PATH: 
+  /Users/wukangjun/.npm-global/bin:/Users/wukangjun/flutter/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wukangjun/.npm-global/bin:/Users/wukangjun/flutter/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/apache-maven-3.6.1/bin:/Users/wukangjun/.android-sdk-macosx/tools:/Users/wukangjun/.android-sdk-macosx/platform-tools:/Users/wukangjun/gradle-5.4.1/bin:/Users/wukangjun/ngrok/:/usr/local/mysql/bin:/usr/local/mongodb/bin:/usr/local/apache-maven-3.6.1/bin:/Users/wukangjun/.android-sdk-macosx/tools:/Users/wukangjun/.android-sdk-macosx/platform-tools:/Users/wukangjun/gradle-5.4.1/bin:/Users/wukangjun/ngrok/:/usr/local/mysql/bin:/usr/local/mongodb/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/wukangjun/Library/Caches/Yarn/v4/npm-ansi-regex-2.1.1-c3b33ab5ee360d86e0e628f0468ae7ef27d654df/node_modules/ansi-regex/index.js' -> '/Users/wukangjun/workspace/auxiliary/node_modules/columnify/node_modules/ansi-regex/index.js'
+
+npm manifest: 
+  {
+    "name": "auxiliary",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wukangjun/auxiliary.git"
+    },
+    "author": "wukangjun",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wukangjun/auxiliary/issues"
+    },
+    "homepage": "https://github.com/wukangjun/auxiliary#readme",
+    "devDependencies": {
+      "lerna": "^3.22.1"
+    },
+    "dependencies": {
+      "@babel/core": "^7.11.6",
+      "@babel/types": "^7.11.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
